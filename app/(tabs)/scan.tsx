@@ -12,7 +12,6 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { CameraView, CameraType, useCameraPermissions } from 'expo-camera';
 import {
-  Camera,
   FlashOn,
   FlashOff,
   Image as ImageIcon,
