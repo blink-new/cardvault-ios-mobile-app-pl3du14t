@@ -38,7 +38,6 @@ export default function Scan() {
     return (
       <SafeAreaView style={styles.container}>
         <View style={styles.webPlaceholderContainer}>
-          <Camera size={48} color="#6366F1" />
           <Text style={styles.webPlaceholderTitle}>Camera Not Available</Text>
           <Text style={styles.webPlaceholderText}>
             The camera functionality for scanning cards is only available on a mobile device. Please use the Expo Go app to test this feature.

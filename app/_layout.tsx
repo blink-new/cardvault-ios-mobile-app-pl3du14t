@@ -10,7 +10,13 @@ export default function RootLayout() {
   return (
     <>
       <Stack screenOptions={{ headerShown: false }}>
-        <Stack.Screen name="(tabs)" />
+        <Stack.Group name="(tabs)">
+          <Stack.Screen name="index" options={{ headerShown: false }} />
+          <Stack.Screen name="scan" />
+          <Stack.Screen name="social" />
+          <Stack.Screen name="activity" />
+          <Stack.Screen name="settings" />
+        </Stack.Group>
         <Stack.Screen name="game-sets" />
         <Stack.Screen name="set-details" />
         <Stack.Screen name="card-details" />
